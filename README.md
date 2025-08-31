@@ -31,15 +31,16 @@ The app includes features like **debounced search, pagination, error handling, a
 ## 📂 Project Structure
 
 src/
-├── App.jsx # Main app with search + debounce logic
+├── App.jsx               # Main app with search + debounce logic
+├── App.css               # Styling
 ├── Components/
-│ └── BookCard.jsx # Card UI for each book
-│ └── Header.jsx # Search bar header
+│   ├── BookCard.jsx      # Card UI for each book
+│   ├── Header.jsx        # Search bar header
+│   └── Footer.jsx        # ✅ New Footer component
 ├── Pages/
-│ └── Books.jsx # Fetch books + pagination + error handling
-├── hook/
-│ └── useDebounce.js # Custom debounce hook
-└── App.css # Styling 
+│   └── Books.jsx         # Fetch books + pagination + error handling
+└── hook/
+    └── useDebounce.js    # Custom debounce hook
 
 
 ---
